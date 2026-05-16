@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box
+}
+
+#img{
+	fit:cover;
+	width:350px;
+	height:250px;
+	
+}
+.hero{
+	/* border:1px solid black; */
+	width:200px;
+	
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center
+	
+}
+.container{
+	/* border:1px solid blue; */
+	display:flex;
+	flex-direction:row;
+}
+.btn{
+	text-decoration:none;
+	color:white;
+	background-color:#EA3324;
+	width:100px;
+	height:25px;
+	border-radius:4px;
+	border:none;
+	
+	
+	
+	
+}
